@@ -1,1 +1,17 @@
-pubspec.yaml
+name: kivuli_cha_ndoto
+description: App ya Kivuli cha Ndoto
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.5.3
+  permission_handler: ^11.0.1
+  cupertino_icons: ^1.0.5
+
+flutter:
+  uses-material-design: true
